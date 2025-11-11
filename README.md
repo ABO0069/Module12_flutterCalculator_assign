@@ -1,84 +1,74 @@
-Flutter Calculator App
+# Flutter Calculator App
 
 A sleek, responsive calculator app built with Flutter, inspired by the iOS calculator design.
 
 This project was built from scratch as a learning exercise, focusing on a clean UI, responsive layout, and state management in Flutter.
 
-Features
+---
 
-Standard Arithmetic: All basic operations: addition (+), subtraction (-), multiplication (×), and division (÷).
+## Features
 
-Modern UI: A clean, iOS-inspired design with a two-line display for expressions and results.
+- **Standard Arithmetic:** All basic operations: addition (`+`), subtraction (`-`), multiplication (`×`), and division (`÷`) &nbsp;
+- **Modern UI:** A clean, iOS-inspired design with a two-line display for expressions and results &nbsp;
+- **Light/Dark Theme:** An adaptive theme that toggles between light and dark modes &nbsp;
+- **Utility Functions:** Includes "All Clear" (`AC`), clear entry (`C`), percent (`%`), delete (`DEL`), and decimal (`.`) functionalities &nbsp;
+- **Responsive Layout:** The UI adapts cleanly to different screen sizes
 
-Light/Dark Theme: A beautiful, an adaptive theme that toggles between light and dark modes.
+---
 
-Utility Functions: Includes "All Clear" (AC), clear entry (C), percent (%), delete (DEL), and decimal (.) functionalities.
+## Screenshots
 
-Responsive Layout: The UI adapts cleanly to different screen sizes.
+![Calculator Light Theme](calculator-light-mode.png)
+![Calculator Dark Theme](calculator-dark-mode.png)
 
-Screenshot
+---
 
-(To add a screenshot:
+## Getting Started
 
-Take a screenshot of your app.
+Follow these steps to get a local copy running.
 
-Drag the image file (e.g., screenshot.png) into this project folder in VS Code.
+### Prerequisites
 
-Replace the line below with: ![Calculator App Screenshot](screenshot.png)
-)
+- Flutter SDK (e.g., `3.x.x`) &nbsp;
+- Dart SDK &nbsp;
+- A code editor (like VS Code with the Flutter extension) &nbsp;
+- An emulator (Android or iOS) or a physical device &nbsp;
 
-path/to/your/screenshot.png
+---
 
-Getting Started
+### Installation & Setup
 
-To get a local copy up and running, follow these simple steps.
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/YourUsername/flutter_calculator.git](https://github.com/YourUsername/flutter_calculator.git)
+    ```
 
-Prerequisites
+2.  **Navigate to the project directory:**
+    ```bash
+    cd flutter_calculator
+    ```
 
-You must have the Flutter SDK installed on your machine. For help, see the official Flutter installation guide.
+3.  **Install dependencies:**
+    ```bash
+    flutter pub get
+    ```
 
-Flutter SDK (e.g., 3.x.x)
+4.  **Run the app:**
+    Connect a device or start an emulator, then run:
+    ```bash
+    flutter run
+    ```
 
-Dart SDK
+---
 
-A code editor (like VS Code with the Flutter extension)
+## How to Use
 
-An emulator (Android or iOS) or a physical device
-
-Installation & Setup
-
-Clone the repository:
-
-git clone [https://github.com/YourUsername/flutter_calculator.git](https://github.com/YourUsername/flutter_calculator.git)
-
-
-Navigate to the project directory:
-
-cd flutter_calculator
-
-
-Install dependencies:
-
-flutter pub get
-
-
-Run the app:
-Connect a device or start an emulator, then run:
-
-flutter run
+- Press the number and operator buttons to build an expression. &nbsp;
+- The top line shows your full expression (e.g., `10 + 5`). &nbsp;
+- The bottom line shows your current entry or the result. &nbsp;
+- `AC` clears all state, while `C` just clears the current entry. &nbsp;
+- `DEL` deletes the last digit of your current entry. &nbsp;
+- Press the Sun/Moon icon at the top to toggle between light and dark themes. &nbsp;
 
 
-How to Use
-
-Press the number and operator buttons to build an expression.
-
-The top line shows your full expression (e.g., 10 + 5).
-
-The bottom line shows your current entry or the result.
-
-AC clears all state, while C just clears the current entry.
-
-DEL deletes the last digit of your current entry.
-
-Press the Sun/Moon icon at the top to toggle between light and dark themes.
 
