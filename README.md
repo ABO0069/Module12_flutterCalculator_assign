@@ -18,10 +18,16 @@ Responsive Layout: The UI adapts cleanly to different screen sizes.
 
 Screenshot
 
-(You can add a screenshot of your app here!)
+(To add a screenshot:
 
-<img src="C:\Users\LENOVO\OneDrive\Pictures\Screenshots\calculator dark mode.png" alt="Calculator App Screenshot" width="300"/>
-<img src="C:\Users\LENOVO\OneDrive\Pictures\Screenshots\calculator light mode.png" alt="Calculator App Screenshot2" width="300"/>
+Take a screenshot of your app.
+
+Drag the image file (e.g., screenshot.png) into this project folder in VS Code.
+
+Replace the line below with: ![Calculator App Screenshot](screenshot.png)
+)
+
+path/to/your/screenshot.png
 
 Getting Started
 
@@ -43,7 +49,7 @@ Installation & Setup
 
 Clone the repository:
 
-git clone https://github.com/ABO0069/Module12_flutterCalculator_assign.git
+git clone [https://github.com/YourUsername/flutter_calculator.git](https://github.com/YourUsername/flutter_calculator.git)
 
 
 Navigate to the project directory:
@@ -62,10 +68,17 @@ Connect a device or start an emulator, then run:
 flutter run
 
 
-How to Use:
-1)Press the number and operator buttons to build an expression.
-2)The top line shows your full expression (e.g., 10 + 5).
-3)The bottom line shows your current entry or the result.
-4)AC clears all state, while C just clears the current entry.
-5)DEL deletes the last digit of your current entry.
-6)Press the Sun/Moon icon at the top to toggle between light and dark themes.
+How to Use
+
+Press the number and operator buttons to build an expression.
+
+The top line shows your full expression (e.g., 10 + 5).
+
+The bottom line shows your current entry or the result.
+
+AC clears all state, while C just clears the current entry.
+
+DEL deletes the last digit of your current entry.
+
+Press the Sun/Moon icon at the top to toggle between light and dark themes.
+
