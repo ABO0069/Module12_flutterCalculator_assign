@@ -40,7 +40,7 @@ Follow these steps to get a local copy running.
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/YourUsername/flutter_calculator.git](https://github.com/YourUsername/flutter_calculator.git)
+    git clone (https://github.com/ABO0069/Module12_flutterCalculator_assign.git)
     ```
 
 2.  **Navigate to the project directory:**
